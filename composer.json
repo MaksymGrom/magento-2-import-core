@@ -1,0 +1,20 @@
+{
+    "name": "grom/magento-2-import-core",
+    "description": "There is a flexible core for implement any types of imports",
+    "require": {
+        "php": "~7.0.13|~7.1.0"
+    },
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Grom\\ImportCore\\": ""
+        }
+    }
+}
